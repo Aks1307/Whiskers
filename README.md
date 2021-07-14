@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Whiskers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Whiskers allow users to directly connect with people who are pet lovers and are ready to host the pets at their places.
 
-## Available Scripts
+There is currently no good platform in the market that offers Reliable Pet Boarding Services. This has been a huge problem among pet owners who wants a safe, friendly, and reliable environment for their loved ones when they are gone.
 
-In the project directory, you can run:
+## Information Architecure
+    
+![alt text](./Readme_Files/Info_Arch.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Wireframes
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![alt text](./Readme_Files/Wireframes.png)    
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features Offered
+There were a lot of designs created for this platform. To adequately explain the designs and their functionalities, I segmented them according to the task they are performing.
 
-### `npm run build`
+* ### Find a Host
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    These screens include the Homepage of Whiskers, which introduces users to the platform — Explaining Process, How to Become a host, and Blog. The following screens allow pet owners to find a perfect host using several filtering features such as Date, Location, Pet Type, Price, and much more…
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ![alt text](./Readme_Files/Find_Host.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* ### Contact a Host
 
-### `npm run eject`
+    The Host screen allows the user to find all the information regarding the pet hosts. The users can send a query to the hosts with all the info regarding their pets. I implemented this using a series of overlay modals, which can be seen in the image below. If the host accepts the user’s query, it will be shown under the “Your Services” Section on the platform, which allows the user to chat with the host and book a visit if required.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    ![alt text](./Readme_Files/Contact_Host.jpg)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* ### Become a Host
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    Whiskers allow individuals to become a host by completing their profile and submitting several documents for verification. This allows only those people to become hosts who genuinely care about pets. The platform also provides Dashboard for hosts with all essential features such as Service History, Earning Analytics, and so on…
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    ![alt text](./Readme_Files/Become_Host.jpg)    
 
-## Learn More
+* ### Whiskers Blog
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Whiskers Blog allows users to learn more about pet care in general and to grow the Whiskers Community.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    ![alt text](./Readme_Files/Whiskers_Blog.jpg)        
